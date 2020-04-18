@@ -2,16 +2,23 @@
 <html>
   <head>
     <title>Percentage Calculator</title>
+    <link rel="stylesheet" href="style1.css" />
   </head>
   <body>
-    <h1>Percentage Calculator</h1>
-    <p>X is What % Of Y</p>
-    <form id="xIsWhatPercentOfY">
-      <input type="text" id="numField1" />
-      <input type="text" id="numField2" /><br /><br />
-      <input type="submit" value="Calculate" />
-      <h3 id="resultField">result : 100%</h3>
-    </form>
+    <div class="container">
+      <div class="percent">
+        <h1>Percentage Calculator</h1>
+      </div>
+      <div class="main">
+        <p>X is What % Of Y</p>
+        <form id="xIsWhatPercentOfY">
+          <input type="text" id="numField1" />
+          <input type="text" id="numField2" /><br /><br />
+          <input type="submit" value="Calculate" />
+          <h3 id="resultField">result : 100%</h3>
+        </form>
+      </div>
+    </div>
 
     <script type="text/javascript" src="calc.js"></script>
   </body>

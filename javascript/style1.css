@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #d4d3d3;
+}
+div.container {
+  background: linear-gradient(#ff4d4d, #ffb3b3);
+  width: 30%;
+  height: 300pxpx;
+  margin: 60px auto;
+  border-radius: 20px;
+  box-shadow: 0 0 2px 2px white;
+}
+div.container h1,
+h3,
+p {
+  color: white;
+}
+
+div.percent {
+  padding-bottom: 10px;
+  padding-top: 40px;
+}
+div.main {
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 35px;
+  }
+}
