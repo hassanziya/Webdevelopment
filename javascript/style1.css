@@ -39,7 +39,7 @@ div.main {
   border: none;
   height: 30px;
   border-radius: 4px;
-  background-color: grey
+  background-color: grey;
   color: white;
 }
 
@@ -50,7 +50,7 @@ div.main {
   div.container {
     width: 50%;
   }
-  #numField1{
+  #numField1 {
     margin-bottom: 4px;
   }
 }
