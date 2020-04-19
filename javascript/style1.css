@@ -7,38 +7,50 @@ body {
 div.container {
   background: linear-gradient(#ff4d4d, #ffb3b3);
   width: 30%;
-  height: 300pxpx;
+  height: 370px;
   margin: 60px auto;
   border-radius: 20px;
   box-shadow: 0 0 2px 2px white;
 }
 div.container h1,
-h3,
 p {
   color: white;
 }
+h3 {
+  color: blue;
+}
 
 div.percent {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   padding-top: 40px;
 }
 div.main {
   padding-bottom: 40px;
 }
 
-@media screen and (min-width: 480px) {
+#numField1,
+#numField2 {
+  border: none;
+  border-radius: 2px;
+  height: 20px;
+  padding-left: 4px;
+}
+.button {
+  border: none;
+  height: 30px;
+  border-radius: 4px;
+  background-color: grey
+  color: white;
+}
+
+@media screen and (max-width: 680px) {
   h1 {
-    font-size: 20px;
+    font-size: 30px;
   }
   div.container {
     width: 50%;
   }
-}
-@media screen and (min-width: 800px) {
-  h1 {
-    font-size: 35px;
-  }
-  div.container {
-    width: 30%;
+  #numField1{
+    margin-bottom: 4px;
   }
 }
